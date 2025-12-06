@@ -83,7 +83,7 @@ jobs:
         with:
           path: testreports
       - name: Write File
-        uses: DamianReeves/write-file-action@v1.2
+        uses: DamianReeves/write-file-action@v1.3
         with:
           path: _config.yml
           contents: |
